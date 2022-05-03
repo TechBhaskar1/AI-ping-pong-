@@ -1,0 +1,67 @@
+.header {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    border-radius: 0px;
+    color: white;
+    padding: 10px;
+    padding-top: 15px;
+    line-height: 3;
+    background-color: rgb(127, 191, 255);
+
+}
+.header h2{
+    display: inline;
+    font-size: 35px;
+}   
+.header button{
+    float: right;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.main{
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+    margin: 50px;
+    
+}
+#canvas{
+    width: fit-content;
+    border: 5px solid white;
+}
+.modal-dialog{
+    width: 90%;
+}
+.instruction-image{
+    display: inline-block;
+    width: 40%;
+}
+#webcam{
+    border: 5px solid white;
+    width: fit-content;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    background-color: rgb(85, 84, 84);
+
+}
+#footer{
+    margin: 0;
+    line-height: 2;
+    width: 100%;
+    background-color: rgb(211, 233, 234);
+    
+}
+#restart , #start  {
+    width: 200px;
+    height: 75px;
+    padding: 5px;
+    margin: 50px;
+    font-size: 40px;
+}
+#rules {
+    font-size: 32px;
+    text-align: left;
+}
