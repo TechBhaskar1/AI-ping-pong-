@@ -55,10 +55,10 @@
     
 }
 #restart , #start  {
-    width: 200px;
+    width: 400px;
     height: 75px;
     padding: 5px;
-    margin: 50px;
+    
     font-size: 40px;
 }
 #rules {

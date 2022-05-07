@@ -26,13 +26,16 @@
     <div class="main">
       <img src="GAME LOGO.png" id="logo">
       <br>
-      <button id="start" onclick="startGame()" class="btn btn-warning">Start</button>
+      <p id="status" style="font-size:30px;" class="btn btn-warning"></p>
+      <br>
+      <br>
       <div id="canvas"></div>
-      <button id="restart" onclick="restartGame()" class="btn btn-success">↻Restart</button>
+      <button id="start" onclick="startGame()" class="btn btn-primary">Start</button>
+      <button id="restart" onclick="restartGame()" class="btn btn-danger">↻Restart</button>
 
-    <h4 id="footer">Developed By Bhaskar Krishnan</h4>
+      <h4 id="footer">Developed By Bhaskar Krishnan</h4>
     </div>
-    
+
     <div id="myModal" class="modal fade">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -45,7 +48,8 @@
           <div class="modal-body">
             <p id="rules">1. First keep your laptop screen straight
               <br>2. Move yourself approximately 3-4 feet away from the laptop
-              <br>3. Move your right wrist in an ascending and decending manner, a red dot should appear on your right wrist
+              <br>3. Move your right wrist in an ascending and decending manner, a red dot should appear on your right
+              wrist
               <br>4. Now press the play button, and again move yourself 3-4 feet away from laptop
               <br>5. The red paddel is your paddel, that will move as per the movement of your right wrist
             </p>
